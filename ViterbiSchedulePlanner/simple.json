@@ -1,0 +1,216 @@
+{
+  "schedule": [
+    {
+      "section": "sem1",
+      "classes": [
+        {
+          "deptcode": "WRIT",
+          "coursecode": "150"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "102"
+        }
+      ]
+    },
+    {
+      "section": "sem3",
+      "classes": [
+        {
+          "deptcode": "CSCI",
+          "coursecode": "104L"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "170"
+        },
+        {
+          "deptcode": "EE",
+          "coursecode": "109L"
+        }
+      ]
+    },
+    {
+      "section": "sem5",
+      "classes": []
+    },
+    {
+      "section": "sem7",
+      "classes": []
+    },
+    {
+      "section": "sem2",
+      "classes": [
+        {
+          "deptcode": "CSCI",
+          "coursecode": "103L"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "109"
+        }
+      ]
+    },
+    {
+      "section": "sem4",
+      "classes": [
+        {
+          "deptcode": "CSCI",
+          "coursecode": "270"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "201L"
+        }
+      ]
+    },
+    {
+      "section": "sem6",
+      "classes": []
+    },
+    {
+      "section": "sem8",
+      "classes": []
+    },
+    {
+      "section": "premajor-reqs",
+      "classes": [
+        {
+          "deptcode": "MATH",
+          "coursecode": "126"
+        },
+        {
+          "deptcode": "MATH",
+          "coursecode": "125"
+        },
+        {
+          "deptcode": "MATH",
+          "coursecode": "226"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "340"
+        },
+        {
+          "deptcode": "MATH",
+          "coursecode": "225"
+        },
+        {
+          "deptcode": "MATH",
+          "coursecode": "407"
+        },
+        {
+          "deptcode": "PHYS",
+          "coursecode": "151"
+        },
+        {
+          "deptcode": "PHYS",
+          "coursecode": "161"
+        }
+      ]
+    },
+    {
+      "section": "lower-division",
+      "classes": [
+        {
+          "deptcode": "CSCI",
+          "coursecode": "350L"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "310L"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "356"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "360L"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "401"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "404"
+        }
+      ]
+    },
+    {
+      "section": "upper-division",
+      "classes": [
+        {
+          "deptcode": "CSCI",
+          "coursecode": "350L"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "310L"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "356"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "360L"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "401"
+        },
+        {
+          "deptcode": "CSCI",
+          "coursecode": "404"
+        }
+      ]
+    },
+    {
+      "section": "general-education",
+      "classes": [
+        {
+          "deptcode": "GE",
+          "coursecode": "A"
+        },
+        {
+          "deptcode": "GE",
+          "coursecode": "B"
+        },
+        {
+          "deptcode": "GE",
+          "coursecode": "B"
+        },
+        {
+          "deptcode": "GE",
+          "coursecode": "C"
+        },
+        {
+          "deptcode": "GE",
+          "coursecode": "C"
+        },
+        {
+          "deptcode": "GE",
+          "coursecode": "D"
+        },
+        {
+          "deptcode": "GE",
+          "coursecode": "E"
+        },
+        {
+          "deptcode": "GE",
+          "coursecode": "F"
+        },
+        {
+          "deptcode": "GE",
+          "coursecode": "G"
+        },
+        {
+          "deptcode": "GE",
+          "coursecode": "H"
+        }
+      ]
+    }
+  ]
+}

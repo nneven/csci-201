@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="lab8">
+                
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="mysql-socket-factory-1.0.15-jar-with-dependencies.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/niconeven/Downloads/Lab 8 attached files Oct 15, 2019 435 PM/mysql-socket-factory-1.0.15-jar-with-dependencies.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.46.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/niconeven/Downloads/Lab 8 attached files Oct 15, 2019 435 PM/mysql-connector-java-5.1.46.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="lab8"/>
+                
+        <property name="java-output-path" value="/lab8/build/classes"/>
+            
+    </wb-module>
+    
+</project-modules>

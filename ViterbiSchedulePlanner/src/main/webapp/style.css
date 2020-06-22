@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,700|Roboto+Slab:400,700");
+
+:root {
+  font-size: calc(0.5vw + 1vh);
+}
+
+
+
+h1,
+h4 {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  line-height: 1.3;
+}
+
+table{
+  border: none;
+  padding: 0;
+  margin: auto;
+  
+}
+
+tr{
+  font-family: 'Karla', sans-serif;
+  background-color: #777777;
+}
+
+td{
+  vertical-align: top;
+}
+
+header h1 {
+  font-size: 2.4rem;
+}
+
+span {
+  font-size: 3rem;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+}
+
+a,
+a:link,
+a:active,
+a:visited {
+  color: #0066aa;
+  text-decoration: none;
+  border-bottom: #000013 0.16rem solid;
+}
+
+a:hover {
+  color: #000013;
+  border-bottom: #0066aa 0.16rem solid;
+}
+
+.header{
+  width: 100%;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  position: sticky;
+}
+
+h1{
+  padding: 20px; 
+  color: #555555;
+}
+
+header{
+  background-color: #429dc7;
+  text-align: center;
+  top: 0;
+  height: 150px;
+}
+
+footer {
+  width: 40rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.add-class-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20rem;
+  height: 5.3rem;
+  margin: auto;
+  background: #a8a8a8;
+  border: #000013 0.2rem solid;
+  border-radius: 0.2rem;
+  margin-top: 0.6rem;
+  padding: 0.4rem;
+}
+
+.main-container {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 80%;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  margin: 1.6rem auto;
+}
+
+.column {
+  background: #ff872f;
+  width: 10rem;
+  margin: 0 0.6rem;
+  background: #a8a8a8;
+  border: #000013 0.2rem solid;
+  border-radius: 0.2rem;
+}
+
+.column-header {
+  padding: 0.1rem;
+  border-bottom: #000013 0.2rem solid;
+}
+
+.column-header h4 {
+  text-align: center;
+}
+
+.class-list {
+  min-height: 3rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.column-button {
+  text-align: center;
+  padding: 0.1rem;
+}
+
+.button {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  border: #000013 0.14rem solid;
+  border-radius: 0.2rem;
+  color: #000013;
+  padding: 0.6rem 1rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff4444;
+  margin: 0.1rem auto 0.6rem auto;
+}
+
+.delete-button:hover {
+  background-color: #fa7070;
+}
+
+.add-button {
+  background-color: #ffcb1e;
+  padding: 0 1rem;
+  height: 2.8rem;
+  width: 10rem;
+  margin-top: 0.6rem;
+}
+
+.add-button:hover {
+  background-color: #ffdd6e;
+}
+
+.class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+  list-style-type: none;
+  background: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: 0.4rem;
+  height: 2rem;
+  border: #000013 0.15rem solid;
+  border-radius: 0.2rem;
+  cursor: move;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.EE-class {
+	background: #749fd4;
+}
+
+.CSCI-class {
+  background: #ffcb70;
+}
+
+
+.MATH-class {
+  background: #f58282;
+}
+
+.GE-class{
+	background: #badbaf;
+}
+
+
+
+#classText {
+  background: #fff;
+  border: #000013 0.15rem solid;
+  border-radius: 0.2rem;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  height: 4rem;
+  width: 7rem;
+  margin: auto 0.8rem auto 0.1rem;
+}
+
+.class p {
+  margin: auto;
+}
+
+/* Dragula CSS Release 3.2.0 from: https://github.com/bevacqua/dragula */
+
+.gu-mirror {
+  position: fixed !important;
+  margin: 0 !important;
+  z-index: 9999 !important;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+
+.gu-hide {
+  display: none !important;
+}
+
+.gu-unselectable {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.gu-transit {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+}
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #c70e3a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #c70e3a, #c73850);
+  background: -moz-linear-gradient(right, #c70e3a, #c73850);
+  background: -o-linear-gradient(right, #c70e3a, #c73850);
+  background: linear-gradient(to left, #c70e3a, #c73850);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+

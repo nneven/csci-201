@@ -1,0 +1,6 @@
+ServerHostname=localhost
+ServerPost=6789
+DBConnection=jdbc:mysql://google/assignment4?cloudSqlInstance=alien-device-255400:us-west1:cs201-test&socketFactory=com.google.cloud.sql.mysql.SocketFactory&useSSL=false&user=test&password=password
+DBUsername=test
+DBPassword=password
+SecretWordFile=hangmanwords.txt

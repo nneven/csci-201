@@ -1,0 +1,480 @@
+{
+  "name": "Nicolas Neven",
+  "_id": "nneven@usc.edu",
+  "password": "password",
+  "major": "Computer Science",
+  "gradyear": "Spring 2022",
+  "schedule": [
+    {
+      "section": "sem1",
+      "classes": []
+    },
+    {
+      "section": "sem2",
+      "classes": []
+    },
+    {
+      "section": "sem3",
+      "classes": []
+    },
+    {
+      "section": "sem4",
+      "classes": []
+    },
+    {
+      "section": "sem5",
+      "classes": []
+    },
+    {
+      "section": "sem6",
+      "classes": []
+    },
+    {
+      "section": "sem7",
+      "classes": []
+    },
+    {
+      "section": "sem8",
+      "classes": []
+    },
+    {
+      "section": "premajor-reqs",
+      "classes": [
+        {
+          "name": "Writing and Critical Reasoning - Thematic Approaches",
+          "deptcode": "WRIT",
+          "coursecode": "150",
+          "units": "4",
+          "description": "Academic writing, emphasizing analysis and argumentation, rhetorical judgment, critical reasoning, creative insight, the careful use of evidence, ethical perspectives, logical organization, stylistic and grammatical fluency.",
+          "prereqs": null
+        },
+        {
+          "name": "Advanced Writing",
+          "deptcode": "CSCI",
+          "coursecode": "340",
+          "units": "3",
+          "description": "Instruction in writing for various audiences on topics related to a student's professional or disciplinary interests, with some emphasis on issues of broad public concern.",
+          "prereqs": [
+            {
+              "i": "WRIT 150"
+            }
+          ]
+        },
+        {
+          "name": "Engineering Freshman Academy",
+          "deptcode": "CSCI",
+          "coursecode": "102",
+          "units": "2",
+          "description": "Introduction to the profession of engineering. Ethical, political and societal consequences of engineering innovations and the impact of engineering on everyday life. Team projects and guest lectures. Open to freshmen only.",
+          "prereqs": null
+        },
+        {
+          "name": "Calculus I",
+          "deptcode": "MATH",
+          "coursecode": "125",
+          "units": "4",
+          "description": "Limits; continuity, derivatives and applications; antiderivatives; the fundamental theorem of calculus; exponential and logarithmic functions.",
+          "prereqs": [
+            {
+              "i": "MATH 108"
+            }
+          ]
+        },
+        {
+          "name": "Calculus II",
+          "deptcode": "MATH",
+          "coursecode": "126",
+          "units": "4",
+          "description": "A continuation of MATH 125: trigonometric functions; applications of integration; techniques of integration; indeterminate forms; infinite series; Taylor series; polar coordinates.",
+          "prereqs": [
+            {
+              "i": "MATH 125"
+            }
+          ]
+        },
+        {
+          "name": "Calculus III",
+          "deptcode": "MATH",
+          "coursecode": "226",
+          "units": "4",
+          "description": "Vectors, vector valued functions; differential and integral calculus of functions of several variables; Green's theorem.",
+          "prereqs": [
+            {
+              "i": "MATH 126"
+            }
+          ]
+        },
+         {
+          "name": "Linear Algebra and Linear Differential Equations",
+          "deptcode": "MATH",
+          "coursecode": "225",
+          "units": "4",
+          "description": "Matrices, systems of linear equations, vector spaces, linear transformations, eigenvalues, systems of linear differential equations.",
+          "prereqs": [
+            {
+              "i": "MATH 126"
+            }
+          ]
+        },
+        {
+          "name": "Probability Theory",
+          "deptcode": "MATH",
+          "coursecode": "407",
+          "units": "4",
+          "description": "Probability spaces, discrete and continuous distributions, moments, characteristic functions, sequences of random variables, laws of large numbers, central limit theorem, special probability laws.",
+          "prereqs": [
+            {
+              "i": "MATH 226"
+            }
+          ]
+        },
+        {
+          "name": "Basic Science I",
+          "deptcode": "PHYS",
+          "coursecode": "151",
+          "units": "4",
+          "description": "BISC 120, CHEM 105, PHYS 151",
+          "prereqs": null
+        },
+        {
+          "name": "Basic Science II",
+          "deptcode": "PHYS",
+          "coursecode": "161",
+          "units": "4",
+          "description": "BISC 121, CHEM 115, PHYS 161",
+          "prereqs": null
+        }
+      ]
+    },
+    {
+      "section": "lower-division",
+      "classes": [
+        {
+          "name": "Introduction to Programming",
+          "deptcode": "CSCI",
+          "coursecode": "103L",
+          "units": "4",
+          "description": "Basic datatypes, assignments, control statements (if, switch, for, while), input/output (printf, scanf, cin, cout), functions, arrays, structures, recursion, dynamic memory, file handling. Programming in C/C++.",
+          "prereqs": null
+        },
+        {
+          "name": "Data Structures and Object Oriented Design",
+          "deptcode": "CSCI",
+          "coursecode": "104L",
+          "units": "4",
+          "description": "Introduces the student to standard data structures (linear structures such as linked lists, (balanced) trees, priority queues, and hashtables), using the C++ programming language.",
+          "prereqs": [
+            {
+              "i": "CSCI 103L"
+            }
+          ]
+        },
+        {
+          "name": "Introduction to Embedded Systems",
+          "deptcode": "EE",
+          "coursecode": "109L",
+          "units": "4",
+          "description": "Information representations, embedded programming, digital and serial I/O, analog-to-digital conversion, and interrupt mechanisms. Elementary analog, logic, and state-machine design.",
+          "prereqs": null
+        },
+        {
+          "name": "Introduction to Computer Science",
+          "deptcode": "CSCI",
+          "coursecode": "109",
+          "units": "2",
+          "description": "An introduction to, and overview of, Computer Science; both as a discipline and a body of knowledge.",
+          "prereqs": null
+        },
+        {
+          "name": "Discrete Methods in Computer Science",
+          "deptcode": "CSCI",
+          "coursecode": "170",
+          "units": "4",
+          "description": "Sets, functions, series. Big-O notation and algorithm analysis. Propositional and first-order logic. Counting and discrete probability. Graphs and basic graph algorithms. Basic number theory.",
+          "prereqs": [
+            {
+              "i": "CSCI 103L",
+              "ii": [
+                "CSCI 109",
+                "EE 109"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Principles of Software Development",
+          "deptcode": "CSCI",
+          "coursecode": "201L",
+          "units": "4",
+          "description": "Object-oriented paradigm for programming-in-the-large in Java; writing sophisticated concurrent applications with animation and graphic user interfaces; using professional tools on team project.",
+          "prereqs": [
+            {
+              "i": "CSCI 104L"
+            }
+          ]
+        },
+        {
+          "name": "Introductions to Algorithms and Theory of Computing",
+          "deptcode": "CSCI",
+          "coursecode": "270",
+          "units": "4",
+          "description": "Algorithm analysis. Greedy algorithms, divide and conquer, dynamic programming, graph algorithms. NP-completeness and basic recursion theory and undecidability. Sorting lower bounds. Number-theory based cryptography.",
+          "prereqs": [
+            {
+              "i": "CSCI 104L",
+              "ii": "CSCI 170"
+            }
+          ]
+        },
+        {
+          "name": "Introduction to Operating Systems",
+          "deptcode": "CSCI",
+          "coursecode": "350L",
+          "units": "4",
+          "description": "Basic issues in concurrency, deadlock control, synchronization scheduling, memory management, protection and access control, inter-process communication, and structured design. Laboratory experiences with Unix-like operating system.",
+          "prereqs": [
+            {
+              "i": "CSCI 201L",
+              "ii": [
+                "CSCI 356",
+                "EE 354"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering",
+          "deptcode": "CSCI",
+          "coursecode": "310L",
+          "units": "4",
+          "description": "Introduction to the software engineering process and software lifecycle. Covers project management, requirements, architecture, design, implementation, testing, and maintenance phase activities in team based projects.",
+          "prereqs": [
+            {
+              "i": "CSCI 104L"
+            }
+          ]
+        },
+        {
+          "name": "Introduction to Computer Systems",
+          "deptcode": "CSCI",
+          "coursecode": "356",
+          "units": "4",
+          "description": "Computer organization; entity abstraction and representation; program execution; code optimization; memory usage; exception handling; processing control; computer performance; hands-on work done in C and assembly.",
+          "prereqs": [
+            {
+              "i": "CSCI 104L"
+            }
+          ]
+        },
+        {
+          "name": "Introduction to Artificial Intelligence",
+          "deptcode": "CSCI",
+          "coursecode": "360L",
+          "units": "4",
+          "description": "Concepts and algorithms underlying the understanding and construction of intelligent systems. Agents, problem solving, search, representation, reasoning, planning, machine learning.",
+          "prereqs": [
+            {
+              "i": "CSCI 104L",
+              "ii": "CSCI 170"
+            }
+          ]
+        },
+        {
+          "name": "Capstone: Design and Construction of Large Software Systems",
+          "deptcode": "CSCI",
+          "coursecode": "401",
+          "units": "4",
+          "description": "Group project with an outside stakeholder to develop real-world software solutions to large-scale problems. Topics include software engineering, professional preparation, and recent computer science research.",
+          "prereqs": [
+            {
+              "i": "CSCI 270",
+              "ii": "CSCI 310L"
+            }
+          ]
+        },
+        {
+          "name": "Capstone: Creating Your High-Tech Startup",
+          "deptcode": "CSCI",
+          "coursecode": "404",
+          "units": "4",
+          "description": "Capstone class in which students create their own technology startup, leveraging comprehensive CS knowledge and best industry practices.",
+          "prereqs": [
+            {
+              "i": "CSCI 104L",
+              "ii": "CSCI 170"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "upper-division",
+      "classes": [
+        {
+          "name": "Introduction to Operating Systems",
+          "deptcode": "CSCI",
+          "coursecode": "350L",
+          "units": "4",
+          "description": "Basic issues in concurrency, deadlock control, synchronization scheduling, memory management, protection and access control, inter-process communication, and structured design. Laboratory experiences with Unix-like operating system.",
+          "prereqs": [
+            {
+              "i": "CSCI 201L",
+              "ii": [
+                "CSCI 356",
+                "EE 354"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering",
+          "deptcode": "CSCI",
+          "coursecode": "310L",
+          "units": "4",
+          "description": "Introduction to the software engineering process and software lifecycle. Covers project management, requirements, architecture, design, implementation, testing, and maintenance phase activities in team based projects.",
+          "prereqs": [
+            {
+              "i": "CSCI 104L"
+            }
+          ]
+        },
+        {
+          "name": "Introduction to Computer Systems",
+          "deptcode": "CSCI",
+          "coursecode": "356",
+          "units": "4",
+          "description": "Computer organization; entity abstraction and representation; program execution; code optimization; memory usage; exception handling; processing control; computer performance; hands-on work done in C and assembly.",
+          "prereqs": [
+            {
+              "i": "CSCI 104L"
+            }
+          ]
+        },
+        {
+          "name": "Introduction to Artificial Intelligence",
+          "deptcode": "CSCI",
+          "coursecode": "360L",
+          "units": "4",
+          "description": "Concepts and algorithms underlying the understanding and construction of intelligent systems. Agents, problem solving, search, representation, reasoning, planning, machine learning.",
+          "prereqs": [
+            {
+              "i": "CSCI 104L",
+              "ii": "CSCI 170"
+            }
+          ]
+        },
+        {
+          "name": "Capstone: Design and Construction of Large Software Systems",
+          "deptcode": "CSCI",
+          "coursecode": "401",
+          "units": "4",
+          "description": "Group project with an outside stakeholder to develop real-world software solutions to large-scale problems. Topics include software engineering, professional preparation, and recent computer science research.",
+          "prereqs": [
+            {
+              "i": "CSCI 270",
+              "ii": "CSCI 310L"
+            }
+          ]
+        },
+        {
+          "name": "Capstone: Creating Your High-Tech Startup",
+          "deptcode": "CSCI",
+          "coursecode": "404",
+          "units": "4",
+          "description": "Capstone class in which students create their own technology startup, leveraging comprehensive CS knowledge and best industry practices.",
+          "prereqs": [
+            {
+              "i": "CSCI 104L",
+              "ii": "CSCI 170"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "general-education",
+      "classes": [
+        {
+          "name": "The Arts",
+          "deptcode": "GE",
+          "coursecode": "A",
+          "units": "4",
+          "description": "The creative act, in its many manifestations, reflects, defines, and is defined by human experience and endeavors. The Arts curriculum perpetuates this proud heritage. The goal of general arts education is to help students discover, explore and interpret this rich and multi-faceted history and to situate themselves within its traditions.",
+          "prereqs": null
+        },
+        {
+          "name": "Humanistic Inquiry 1",
+          "deptcode": "GE",
+          "coursecode": "B",
+          "units": "4",
+          "description": "We all are self-reflective. We try to make sense of what it means to be human and how to relate to one another. We seek to understand ourselves and the world around us, and always we think about how things could be, or should be, or might have been. Humanistic inquiry takes us into realms that lie at the heart of what it means to be a thinking, feeling person, and into realms of interpretation and analysis beyond what facts and figures alone can tell us.",
+          "prereqs": null
+        },
+        {
+          "name": "Humanistic Inquiry 2",
+          "deptcode": "GE",
+          "coursecode": "B",
+          "units": "4",
+          "description": "We all are self-reflective. We try to make sense of what it means to be human and how to relate to one another. We seek to understand ourselves and the world around us, and always we think about how things could be, or should be, or might have been. Humanistic inquiry takes us into realms that lie at the heart of what it means to be a thinking, feeling person, and into realms of interpretation and analysis beyond what facts and figures alone can tell us.",
+          "prereqs": null
+        },
+        {
+          "name": "Social Analysis 1",
+          "deptcode": "GE",
+          "coursecode": "C",
+          "units": "4",
+          "description": "At a time of rapid social, economic, and cultural transformation, both in the United States and globally, the insights of social analysis take on critical significance. The social sciences seek to explain the causes and consequences of a wide range of complex phenomena, including how individual and collective human action shapes and is shaped by economic organizations, political institutions, and social and cultural settings broadly understood. These phenomena include the role of gender, sexuality, race, class and other aspects of identity across time and settings in the United States and the world. Courses in this area will introduce students to analytical approaches and methods of social sciences, quantitative and/or qualitative, and how these insights can be brought to bear to better understand our social world.",
+          "prereqs": null
+        },
+        {
+          "name": "Social Analysis 2",
+          "deptcode": "GE",
+          "coursecode": "C",
+          "units": "4",
+          "description": "At a time of rapid social, economic, and cultural transformation, both in the United States and globally, the insights of social analysis take on critical significance. The social sciences seek to explain the causes and consequences of a wide range of complex phenomena, including how individual and collective human action shapes and is shaped by economic organizations, political institutions, and social and cultural settings broadly understood. These phenomena include the role of gender, sexuality, race, class and other aspects of identity across time and settings in the United States and the world. Courses in this area will introduce students to analytical approaches and methods of social sciences, quantitative and/or qualitative, and how these insights can be brought to bear to better understand our social world.",
+          "prereqs": null
+        },
+        {
+          "name": "Life Sciences",
+          "deptcode": "GE",
+          "coursecode": "D",
+          "units": "4",
+          "description": "Understanding the nature of scientific inquiry and the operation of the biological, physical, and technological world is essential for making personal and public policy decisions in a technological society. Courses in Life and Physical Sciences train students to understand the basic concepts and theories of science and the scientific method, with a major emphasis on the impact science has on society and the environment. Students learn about the process and methods underlying scientific inquiry, learn how to obtain accurate experimental results, are trained in the formulation of empirically-testable hypotheses, and then develop a basis for understanding the distinction between unsupported assertions versus conclusions based on sound scientific reasoning. As a result, all students should acquire substantive knowledge in science and technology, understand the processes by which scientists investigate and answer scientific questions, and be able to articulate the basic principles used to explain natural phenomena.",
+          "prereqs": null
+        },
+        {
+          "name": "Physical Sciences",
+          "deptcode": "GE",
+          "coursecode": "E",
+          "units": "4",
+          "description": "All USC students should have a basic grasp of scientific methods; to construct models of the natural/living world and to test the validity of these models using empirical evidence. They should have familiarity with many of the major scientific ideas of the modern world. Various forms of research skills characterize different disciplines, but all disciplines seek to foster techniques of research and investigation, analysis and problem-solving, that provides the basis for discovery and validation in their fields. In the sciences, such procedures are at the heart of specific methodologies of discovery and research and provide the means for confirmation and falsification of conjectures and hypotheses. USC students need to understand how data is generated, presented and interpreted and how scientific discovery spurs technology growth and impacts society. A science course at USC will include field, hands-on or laboratory experience in which data are collected, analyzed and interpreted.",
+          "prereqs": null
+        },
+        {
+          "name": "Quantitative Reasoning",
+          "deptcode": "GE",
+          "coursecode": "F",
+          "units": "4",
+          "description": "The Quantitative Reasoning category engages students in the analysis and manipulation of data and information related to quantifiable objects, symbolic elements, or logic in order to help them navigate the complexity and sophistication of the modern world. All Quantitative Reasoning courses, be they formal, abstract, or empirical, are designed to increase the capacity of students to evaluate chains of formal reasoning and to assess the validity of mathematical, logical, or statistical inferences. A course in this category aims to develop one or more of three sets of skills: formal reasoning (the use of formal logic or mathematics), abstract representation (the use or construction of symbolic or diagrammatic representations), and empirical analysis (the use of statistical inference).",
+          "prereqs": null
+        },
+        {
+          "name": "Citizenship in a Diverse World",
+          "deptcode": "GE",
+          "coursecode": "G",
+          "units": "4",
+          "description": "Courses in this category enhance understanding of citizenship and moral agency within the context of today's increasingly global society, exploring differences and similarities across diverse communities and cultures. Courses can cover a diverse range of issues, such as political, legal, ethical, or cultural aspects of US society in a global context, or the ways in which other societies and cultures construct what it means to be a citizen and a moral agent.",
+          "prereqs": null
+        },
+        {
+          "name": "Traditional and Historical Foundations",
+          "deptcode": "GE",
+          "coursecode": "H",
+          "units": "4",
+          "description": "Courses in this area examine the historical and cultural foundations of contemporary and past societies by studying enduring and influential literary, political, economic, philosophical, legal, ethical or religious traditions. Courses can examine multiple aspects of a single culture (for example, the literary and philosophical heritage of classical Greece or imperial China) or can trace the development of a fundamental idea or tradition across multiple cultures.",
+          "prereqs": null
+        }
+      ]
+    }
+  ]
+}
